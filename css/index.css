@@ -1,0 +1,12 @@
+#tableroot table tr td {
+    border-color: brown;
+    width: 20px;
+    height: 20px;
+    border-style: dashed;
+    margin: 3px;
+}
+
+#imgStar {
+    width: 15px;
+    height: 15px;
+}

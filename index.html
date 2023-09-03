@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="modules\jquery-3.7.0.js"></script>
+    <script src="js/tableGenerator.js"></script>
+    <script src="js/skyController.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="tableroot"></div>
+    <script>
+
+        tableGenerator.GenerateTable(20, 20);
+        setInterval(function() {
+                ClearTable();
+                GenerateStarsInTable();
+                }, 1000);
+    </script>
+</body>
+</html>
